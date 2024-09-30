@@ -166,7 +166,7 @@ span {
 }
 
 #our_mission {
-    /*  border: 1px dashed green; */
+      border: 1px solid green; 
     height: 650px;
     width: 100%;
     margin: auto;
@@ -181,6 +181,7 @@ span {
     width: 40%;
     /* border: 1px solid yellow; */
     margin: auto;
+    /* border: 1px solid rgb(2, 18, 2); */
 }
 
 #our_mission>:first-child>img {
@@ -193,11 +194,17 @@ span {
 
 }
 
-#our_mission>:nth-child(2)>h1,
-p {
-    color: rgb(173, 176, 179);
+#our_mission>:nth-child(2)>h1,p
+ {
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    /* border: 1px solid rgb(2, 18, 2); */
+}
+#our_mission>:nth-child(2)>p
+ {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid rgb(2, 18, 2); */
 }
 
 #our_mission>:nth-child(2)>:last-child {
